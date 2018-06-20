@@ -1,0 +1,33 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:BookShop.Resourses">
+
+    <Style x:Key="TopMenuButtons">
+        <Style.Setters>
+            <Setter Property="Control.Background" Value="Black"></Setter>
+            <Setter Property="Control.FontSize" Value="14"></Setter>
+            <Setter Property="Control.FontFamily" Value="Calibry"></Setter>
+            <Setter Property="Control.Foreground" Value="White"></Setter>
+            <Setter Property="Control.BorderThickness" Value="0 0 0 0"></Setter>
+        </Style.Setters>
+
+        <Style.Triggers>
+            <Trigger Property ="Control.IsMouseOver" Value="true">
+                <Setter Property="Control.Background" Value="Black"></Setter>
+                <Setter Property="Control.Foreground" Value="White"></Setter>
+            </Trigger>
+        </Style.Triggers>
+
+		
+		</Style>
+
+	<Style x:Key="Welcom">
+		<Style.Setters>
+			<Setter Property="Control.Margin" Value="10 10 20 0"></Setter>
+			<Setter Property="Control.FontSize" Value="20"></Setter>
+			<Setter Property="Control.FontFamily" Value="Calibry"></Setter>
+			<Setter Property="Control.Foreground" Value="Brown"></Setter>
+			<Setter Property="Control.BorderThickness" Value="0 0 0 0"></Setter>
+		</Style.Setters>
+	</Style>
+</ResourceDictionary>
